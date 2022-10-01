@@ -1,5 +1,5 @@
 use actix_web::web;
-use crate::contexts::blog::infrastructure::controllers::grettings;
+use crate::contexts::gretting::infrastructure::controllers::grettings;
 
 
 pub fn configure_routes(cfg: &mut web::ServiceConfig) {

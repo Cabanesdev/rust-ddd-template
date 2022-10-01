@@ -1,1 +1,1 @@
-pub mod blog;
+pub mod gretting;
