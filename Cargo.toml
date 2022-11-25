@@ -1,5 +1,5 @@
 [package]
-name = "api-test"
+name = "server-actix-web"
 version = "0.1.0"
 edition = "2021"
 
@@ -8,3 +8,6 @@ edition = "2021"
 [dependencies]
 actix-web = "4"
 serde = { version = "1.0", features = ["derive"] }
+diesel = { version = "2.0.0", features = ["postgres"] }
+dotenvy = "0.15"
+phf = { version = "0.11.1", features = ["macros"] }
